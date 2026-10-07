@@ -25,16 +25,21 @@ Document at least 3 bugs you found. Add rows as needed.
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 ChatGPT as a conversational and Claude
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+For the range of the hard difficulty, the AI suggested to change the range to 200 which is higher than the range of normal, which I think makes sense for an increased difficulty level
 - Give one example of an AI suggestion you did not accept as written (including what the AI suggested, why you rejected or changed it, and how you verified your version). It does not have to be a suggestion that was wrong: over-engineered, out of scope, harder to read, or a poor fit for this codebase all count.
+Claude added quite a few test functions, some I though were unnecesary or repetetive, like a "test_comparison_is_numeric_not_lexicographic" method which pretty much does the same thing as a previously defined method so i decided to scrap it.
 
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+I tested it by rerunning the website
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+After fixing the bug that was causing the wrong hint to be displayed, I reran the script and checked manually by inputting numbers to make sure the output was correct
 - Did AI help you design or understand any tests? How?
+Yes, the comments it left for each test method made it clear what each one was testing and why.
 
 ---
 
