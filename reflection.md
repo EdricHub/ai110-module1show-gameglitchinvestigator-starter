@@ -12,17 +12,18 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Input | Expected Behavior | Actual Behavior | Console Output / Error | Location
+|-------|-------------------|-----------------|------------------------|-----------|
+|   40  | Go Higher             Go LOWER        none                      check_guess
+|   50  | Go Lower              Go HIGHER       none                      check_guess
+|  hard | increase range      decreases range   none                      get_range_for_difficulty
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+ChatGPT as a conversational and Claude
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion you did not accept as written (including what the AI suggested, why you rejected or changed it, and how you verified your version). It does not have to be a suggestion that was wrong: over-engineered, out of scope, harder to read, or a poor fit for this codebase all count.
 
