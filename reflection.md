@@ -46,6 +46,7 @@ Yes, the comments it left for each test method made it clear what each one was t
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+streamlit "reruns" literally reruns the script whenever something is changed, sort of like a rerendering, and session state keeps the state of a previous run that can be carried over to the rerun.
 
 ---
 
@@ -53,5 +54,8 @@ Yes, the comments it left for each test method made it clear what each one was t
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+Taking time to review the AI generated code as it can get out of hand, and also being more verbose with my prompts because I had to sort of prompt the same thing twice to get the desired result at times.
 - What is one thing you would do differently next time you work with AI on a coding task?
+Review the code and make sure I understand every line
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+This project didnt change my perspective on AI generated code too much, as I already know how much AI can hallucinate, but it made me see how much reviewing I really have to do.
